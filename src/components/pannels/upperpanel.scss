@@ -1,0 +1,116 @@
+
+ .upperPanel {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+
+		.balanceWord {
+			position: relative;
+			top: 1vh;
+			left: 20px;
+			z-index: 1;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 100%;
+			text-align: center;
+			background: linear-gradient(91.74deg, #FFFFFF 16.43%, #C9C9C9 50.63%, #F9F9F9 89.98%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		.balanceState {
+			margin: 50px;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 27px;
+			background: linear-gradient(226.09deg, #D79A03 16.9%, #BD6F00 61.48%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		.cashBackground {
+			position: absolute;
+			left: 22.5%;
+			top: -35%;
+			width: 55%;
+		}
+		
+		.balanceCoin {
+			position: absolute;
+			left: 47.5%;
+			top: 45%;
+			z-index: 1;
+		}
+
+		.energyDiv {
+			position: absolute;
+			top: 25px;
+			left: 15px;
+		}
+
+		.energySign {
+			position: relative;
+			width: 12%;
+		}
+
+		.energyValue {
+			position: relative;
+			left: 5px;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 100%;
+			color: #FFFFFF;
+		}
+
+		.energyValue-grey {
+			position: relative;
+			left: 5px;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 100%;
+			color: #413F3F;
+		}
+
+		.fill {
+			height: 100%;
+			background: repeating-linear-gradient(
+				-55deg,
+				#EFCC6C,
+				#EFCC6C 2px,
+				#F2B409 2px,
+				#F2B409 4px
+			);
+			transition: width 0.5s;
+		}
+
+		.scale {
+			height: 5px;
+			width: 100%;
+			background: repeating-linear-gradient(
+				-55deg,
+				#222,
+				#222 2px,
+				#333 2px,
+				#333 4px
+			);
+			border: 1px solid #333;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+}
+
+
+
+
+

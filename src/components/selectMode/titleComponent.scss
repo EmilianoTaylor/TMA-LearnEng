@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+	.titleComponent {
+		display: block;
+		height: 9vh;
+		margin-bottom: 1.5vh;
+		
+
+		.componentTitle {
+			display: block;
+			top: 30%;
+			max-width: 100%;
+			position: relative;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 2rem;
+			line-height: 100%;
+			text-align: center;
+			color: #FFFFFF;
+			z-index: 1;
+		}
+
+		.componentText {
+			display: block;
+			max-width: 100%;
+			top: 30%;
+			position: relative;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 18px;
+			color: #626574;
+			z-index: 1;
+		}
+
+		.background {
+			position: relative;
+			top: -55%;
+			left: 0;
+			width: 90%;
+			height: 100%;
+			z-index: 0;
+		}
+	}
+}

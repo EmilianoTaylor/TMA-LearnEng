@@ -3,6 +3,7 @@ import './App.css'
 import LoadingPage from './components/loadingPage/loadingPage'
 import RewardPage from './components/rewardPage/rewardPage'
 import EveryDayReward from './components/rewardPage/everyDayReward/everyDayReward'
+import SelectMode from './components/selectMode/selectModePage'
 
 function App() {
  
@@ -10,7 +11,8 @@ function App() {
       <>
 				{/* <LoadingPage /> */}
 				{/* <RewardPage /> */}
-				<EveryDayReward />
+				{/* <EveryDayReward /> */}
+				<SelectMode />
 			</>
   )
 }
