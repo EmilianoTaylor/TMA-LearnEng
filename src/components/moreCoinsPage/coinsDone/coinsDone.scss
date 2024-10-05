@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
 
-	.moreCoins {
+	.coinsDone {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -78,7 +78,7 @@
 			}
 			#span-two {
 				position: absolute;
-				top: 1.8vh;
+				top: 1.6vh;
 				left: 33%;
 				font-family: 'Karton2';
 				font-style: normal;
@@ -143,15 +143,6 @@
 				top: 25%;
 				z-index: 2;
 				left: 88%;
-			}
-
-			.doneIcon {
-				display: block;
-				position: absolute;
-				width: 8%;
-				top: 20%;
-				z-index: 2;
-				left: 83%;
 			}
 		}
 	}

@@ -6,6 +6,8 @@ import EveryDayReward from './components/rewardPage/everyDayReward/everyDayRewar
 import SelectMode from './components/selectMode/selectModePage'
 import WordsPage from './components/wordsPage/wordsPage'
 import JourneyPage from './components/journeyPage/journeyPage'
+import MoreCoinsPage from './components/moreCoinsPage/moreCoinsPage'
+import CoinsDone from './components/moreCoinsPage/coinsDone/coinsDone'
 
 function App() {
  
@@ -16,7 +18,9 @@ function App() {
 				{/* <EveryDayReward /> */}
 				{/* <SelectMode /> */}
 				{/* <WordsPage /> */}
-				<JourneyPage />
+				{/* <JourneyPage /> */}
+				<MoreCoinsPage />
+				{/* <CoinsDone /> */}
 			</>
   )
 }
