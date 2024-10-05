@@ -4,6 +4,8 @@ import LoadingPage from './components/loadingPage/loadingPage'
 import RewardPage from './components/rewardPage/rewardPage'
 import EveryDayReward from './components/rewardPage/everyDayReward/everyDayReward'
 import SelectMode from './components/selectMode/selectModePage'
+import WordsPage from './components/wordsPage/wordsPage'
+import JourneyPage from './components/journeyPage/journeyPage'
 
 function App() {
  
@@ -12,7 +14,9 @@ function App() {
 				{/* <LoadingPage /> */}
 				{/* <RewardPage /> */}
 				{/* <EveryDayReward /> */}
-				<SelectMode />
+				{/* <SelectMode /> */}
+				{/* <WordsPage /> */}
+				<JourneyPage />
 			</>
   )
 }

@@ -1,0 +1,165 @@
+@media only screen and (max-width: 768px) {
+
+	.journeyPage { 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: #000000;
+		
+		.title {
+			position: relative;
+			top: 5%;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 40px;
+			line-height: 100%;
+			text-align: center;
+			color: #FFFFFF;
+		}
+
+
+		.asker {
+			position: relative;
+			top: 3vh;
+			width: 100%;
+			height: 14vh;
+			margin-bottom: 13%;
+		
+
+		.goldBack {
+			position: absolute;
+			top: 0;
+			left: 5%;
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		.question {
+			top: 1vh;
+			left: 20%;
+			display: block;
+			position: absolute;
+			z-index: 1;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 6vw;
+			color: #FFFFFF;
+		}
+
+		.topWord {
+			margin-top: 50px;
+			font-size: 8vw;
+			font-style: normal;
+		}
+
+		.balanceDiv {
+			top: 11vh;
+			left: 80vw;
+			position: absolute;
+		}
+
+		.balance {
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 27px;
+			color: #D79A03;
+			z-index: 1;
+		}
+
+		.coin {
+			width: 4vw;
+		}
+	}
+
+	.blueArrow {
+		top: 5%;
+		position: relative;
+		width: 15%;
+		left: 81%;
+		display: block;
+	}
+
+	.stats {
+		left: 30%;
+		top: -18%;
+		position: absolute;
+		font-family: 'Karton2';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 17px;
+		text-align: center;
+		color: #626574;
+	}
+
+	.statsDiv {
+		margin-top: 5%;
+		top: 77%;
+		position: relative;
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 20vh;
+	}
+
+	.pinkGradient {
+		left: 17%;
+		top: 0;
+		position: absolute;
+		top: 5%;
+		width: 64%;
+	}
+
+	.correctly {
+		left: -3%;
+		top: 11%;
+		margin: 0 auto;
+		position: relative;
+		display: block;
+		width: 40%;
+		font-family: 'Karton2';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 4vw;
+		line-height: 16px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	.uncorrect {
+		margin: 0 25%;
+	}
+
+	.correctlyValue {
+		left: 2%;
+		top: 15%;
+		margin: 0 auto;
+		position: relative;
+		display: block;
+		width: 40%;
+		font-family: 'Karton2';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 6vw;
+		line-height: 27px;
+		text-align: center;
+	}
+
+	.correctValue {
+		color: #836DC9;
+	}
+	
+	.uncorrectValue {
+		margin: 0 50%;
+		color: #C96D8E;
+	}
+
+	}
+}

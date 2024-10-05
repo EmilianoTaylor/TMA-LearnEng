@@ -1,4 +1,5 @@
 @media only screen and (max-width: 768px) {
+
 	.selectMode {
 		position: absolute;
 		top: 0;
@@ -21,6 +22,7 @@
 		}
 
 		.underTitle {
+			margin-top: 13%;
 			position: relative;
 			font-family: 'Karton2';
 			font-style: normal;
@@ -38,8 +40,9 @@
 			
 
 			.componentTitle {
+				height: 80%;
 				display: block;
-				top: 30%;
+				top: 50%;
 				max-width: 100%;
 				position: relative;
 				font-family: 'Karton2';
@@ -52,21 +55,6 @@
 				z-index: 1;
 			}
 
-			.componentText {
-				visibility: hidden;
-				display: block;
-				max-width: 100%;
-				top: 30%;
-				position: relative;
-				font-family: 'Karton2';
-				font-style: normal;
-				font-weight: 400;
-				font-size: 16px;
-				line-height: 18px;
-				color: #626574;
-				z-index: 1;
-			}
-
 			.background {
 				position: relative;
 				top: -55%;
@@ -75,6 +63,31 @@
 				height: 100%;
 				z-index: 0;
 			}
+			.titleComponent:nth-child(8) {
+				opacity: 0.7;
+			}
+
+
+
+			.imageComp {
+				position: relative;
+				z-index: 1;
+				display: block;
+				width: 10%;
+				top: -12vh;
+				left: 11%;
+			}
+
+			.arrow {
+				display: block;
+				position: relative;
+				width: 2.5%;
+				z-index: 2;
+				bottom: -8vh;
+				left: 88%;
+			}
 		}
-		
+		#firstImg {
+			top: -13vh;
+		}
 }}

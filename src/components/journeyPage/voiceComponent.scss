@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+
+	.voiceComponent {
+		position: relative;
+		width: 100%;
+		height: 6.2vh;
+
+		.voiceBackground {
+			top: 0;
+			left: 5%;
+			position: absolute;
+			width: 90%;
+			height: 100%;
+		}
+
+		.title {
+			top: 22%;
+			position: relative;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 6vw;
+			line-height: 27px;
+			text-align: center;
+			color: #FFFFFF;
+			z-index: 1;
+		}
+
+		.variant {
+			position: absolute;
+			left: 10%;
+			top: 12%;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 3vw;
+			line-height: 110%;
+			color: #626574;
+			z-index: 1;
+		}
+
+		.micro {
+			padding: 10px;
+			display: block;
+			position: absolute;
+			width: 5vw;
+			top: 2%;
+			left: 82%;
+			z-index: 3;
+		}
+	}
+}

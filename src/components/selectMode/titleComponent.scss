@@ -6,29 +6,29 @@
 		
 
 		.componentTitle {
+			height: 80%;
 			display: block;
-			top: 30%;
+			top: 40%;
 			max-width: 100%;
 			position: relative;
 			font-family: 'Karton2';
 			font-style: normal;
 			font-weight: 400;
-			font-size: 2rem;
+			font-size: 8vw;
 			line-height: 100%;
 			text-align: center;
 			color: #FFFFFF;
 			z-index: 1;
 		}
 
-		.componentText {
-			display: block;
-			max-width: 100%;
-			top: 30%;
+		em {
 			position: relative;
+			top: -1.5vh;
+			margin-top: -5vh;
 			font-family: 'Karton2';
 			font-style: normal;
 			font-weight: 400;
-			font-size: 16px;
+			font-size: 4vw;
 			line-height: 18px;
 			color: #626574;
 			z-index: 1;
@@ -42,5 +42,24 @@
 			height: 100%;
 			z-index: 0;
 		}
+
+		.imageComp {
+			position: relative;
+			z-index: 1;
+			display: block;
+			width: 10%;
+			top: -12vh;
+			left: 11%;
+		}
+
+		.arrow {
+			display: block;
+			position: relative;
+			width: 2.5%;
+			z-index: 2;
+			bottom: -8vh;
+			left: 88%;
+		}
+
 	}
 }
