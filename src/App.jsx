@@ -12,6 +12,8 @@ import FriendString from './components/friendsPage/friendString'
 import FriendsPage from './components/friendsPage/friendsPage'
 import TelegramJoinPage from './components/telegramJoinPage/telegramJoinPage'
 import SoonPage from './components/soonPage/soonPage'
+import EndQuestionPage from './components/endQuestionPage/endQuestionPage'
+import GetRewardPage from './components/getRewardPage/getRewardPage'
 
 function App() {
  
@@ -27,7 +29,9 @@ function App() {
 				{/* <RatingPage /> */}
 				{/* <FriendsPage /> */}
 				{/* <TelegramJoinPage /> */}
-				<SoonPage />
+				{/* <SoonPage /> */}
+				{/* <EndQuestionPage /> */}
+				<GetRewardPage />
 			</>
   )
 }
