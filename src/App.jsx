@@ -14,6 +14,10 @@ import TelegramJoinPage from './components/telegramJoinPage/telegramJoinPage'
 import SoonPage from './components/soonPage/soonPage'
 import EndQuestionPage from './components/endQuestionPage/endQuestionPage'
 import GetRewardPage from './components/getRewardPage/getRewardPage'
+import AdvantagePageOne from './components/advantagesPage/advantagePageOne/advantagePageOne'
+import AdvantagePageTwo from './components/advantagesPage/advantagePageTwo/advantagePageTwo'
+import PremiumPage from './components/advantagesPage/premiumPage/premiumPage'
+import PremiumLostPage from './components/advantagesPage/premiumLostPage/premiumLostPage'
 
 function App() {
  
@@ -31,7 +35,11 @@ function App() {
 				{/* <TelegramJoinPage /> */}
 				{/* <SoonPage /> */}
 				{/* <EndQuestionPage /> */}
-				<GetRewardPage />
+				{/* <GetRewardPage /> */}
+				{/* <AdvantagePageOne /> */}
+				{/* <AdvantagePageTwo /> */}
+				{/* <PremiumPage /> */}
+				<PremiumLostPage />
 			</>
   )
 }

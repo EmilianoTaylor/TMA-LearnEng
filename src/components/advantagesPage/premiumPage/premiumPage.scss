@@ -1,0 +1,153 @@
+@media only screen and (max-width: 768px) {
+
+	.premiumPage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background-image: url(../../images/advantagesPage/gradientBackground.svg);
+		background-size: cover;
+
+		.mainDiv {
+
+			position: relative;
+			width: 100%;
+			height: 100vh;
+
+			.projectLogo {
+				position: relative;
+				top: 12vh;
+				width: 20%;
+			}
+			
+			.title {
+				position: relative;
+				top: 12vh;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 40px;
+				line-height: 100%;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			
+			.advantages {
+
+				position: relative;
+				top: 9vh;
+				width: 100%;
+				height: 25vh;
+
+				.advantageOne {
+					position: absolute;
+					left: 15%;
+					top: 15%;
+				}
+
+				.advantageTwo {
+					position: absolute;
+					right: 15%;
+					top: 15%;
+				}
+
+				.advantageThree {
+					position: absolute;
+					left: 15%;
+					top: 55%;
+				}
+
+				.advantageFour {
+					position: absolute;
+					right: 10%;
+					top: 55%;
+				}
+
+				.advantageIcon {
+					width: 25%;
+				}
+
+				.advantageIcon-с {
+					width: 35%;
+				}
+
+				.advantageIcon-c1 {
+					width: 15%;
+				}
+
+				.advantageIcon-c2 {
+					width: 21%;
+				}
+
+				.advantageText {
+					display: block;
+					font-family: 'Karton2';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 20px;
+					line-height: 23px;
+					text-align: center;
+					color: #626574;
+				}
+			}
+
+			.getVipBtn {
+				position: relative;
+				top: 10%;
+				width: 65%;
+			}
+
+			.demo {
+				display: block;
+				position: relative;
+				top: 11.5%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 120%;
+				text-align: center;
+				color: #8A8E9E;
+			}
+
+			.agreement {
+				display: block;
+				position: relative;
+				top: 13%;
+				left: 7%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 2.5vw;
+				line-height: 100%;
+				color: #626574;
+			}
+
+			.agreeIconDiv {
+				display: inline-block;
+				position: relative;
+				top: 10.5%;
+				left: -28vw;
+				width: 5%;
+			}
+
+			.agreeIcon {
+				width: 100%;
+				height: 100%;
+			}
+
+			a {
+				color: #626574;
+			}
+
+			.closeBtn {
+				position: relative;
+				top: 15%;
+				width: 60%;
+			}
+		}
+	}
+}
