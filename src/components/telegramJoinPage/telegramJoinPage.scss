@@ -1,0 +1,71 @@
+@media only screen and (max-width: 768px) {
+
+	.telegramJoinPage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: #000000;
+
+		.mainDiv {
+			position: relative;
+			width: 100%;
+			height: 100vh;
+
+
+			.blueLight {
+				position: absolute;
+				width: 100vw;
+				z-index: 0;
+				left: 0;
+			}
+
+			.tgIcon {
+				position: absolute;
+				width: 40%;
+				left: 25%;
+				top: 10%;
+			}
+
+			.title {
+				position: relative;
+				top: 30%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 36px;
+				line-height: 100%;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.subscribeBtn {
+				display: block;
+				position: relative;
+				top: 36%;
+				left: 20%;
+				width: 60%;
+			}
+
+			.eclipse {
+				display: block;
+				position: relative;
+				top: 32%;
+				left: 20%;
+				width: 60%;
+			}
+
+			.checkBtn {
+				display: block;
+				position: relative;
+				top: 30%;
+				left: 15%;
+				width: 70%;
+			}
+		}
+
+
+	}
+}

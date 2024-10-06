@@ -4,6 +4,7 @@
 	width: 100%;
 	left: 0;
 	top: 0;
+	z-index: 1;
 
 		.balanceWord {
 			position: relative;
@@ -40,6 +41,7 @@
 			left: 22.5%;
 			top: -35%;
 			width: 55%;
+			opacity: 0.7;
 		}
 		
 		.balanceCoin {

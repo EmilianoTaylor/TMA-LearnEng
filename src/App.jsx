@@ -7,7 +7,11 @@ import SelectMode from './components/selectMode/selectModePage'
 import WordsPage from './components/wordsPage/wordsPage'
 import JourneyPage from './components/journeyPage/journeyPage'
 import MoreCoinsPage from './components/moreCoinsPage/moreCoinsPage'
-import CoinsDone from './components/moreCoinsPage/coinsDone/coinsDone'
+import RatingPage from './components/ratingPage/ratingPage'
+import FriendString from './components/friendsPage/friendString'
+import FriendsPage from './components/friendsPage/friendsPage'
+import TelegramJoinPage from './components/telegramJoinPage/telegramJoinPage'
+import SoonPage from './components/soonPage/soonPage'
 
 function App() {
  
@@ -19,8 +23,11 @@ function App() {
 				{/* <SelectMode /> */}
 				{/* <WordsPage /> */}
 				{/* <JourneyPage /> */}
-				<MoreCoinsPage />
-				{/* <CoinsDone /> */}
+				{/* <MoreCoinsPage /> */}
+				{/* <RatingPage /> */}
+				{/* <FriendsPage /> */}
+				{/* <TelegramJoinPage /> */}
+				<SoonPage />
 			</>
   )
 }

@@ -1,0 +1,196 @@
+@media only screen and (max-width: 768px) {
+
+	.ratingPage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: #000000;
+
+
+		.divList {
+			position: relative;
+			top: 10vh;
+			width: 100%;
+			height: 25vh;
+
+			
+			.titleCup {
+				top: 1vh;
+				position: relative;
+				width: 24vw;
+			}
+
+			.title {
+				position: relative;
+				top: 1vh;
+				display: block;
+				width: 100%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 9vw;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.ratingString {
+				position: absolute;
+				left: 10%;
+				bottom: 0;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 18px;
+				color: #626574;
+			}
+
+			.coin {
+				position: absolute;
+				right: 10%;
+				bottom: -5%;
+				width: 7.5%;
+			}
+		}
+
+		.cupList {								//  список
+			bottom: 0;
+			position: absolute;
+			width: 100%;
+			height: 60vh;
+			overflow-y: scroll;
+		}
+
+		.cupString {								// строка списка
+			height: 5vh;
+			position: relative;
+			width: 90%;
+			left: -5%;
+			margin-bottom: 2.5%;
+
+			.number {
+				position: absolute;
+				left: 5%;
+				top: 20%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 6vw;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.ratingCup {
+				position: absolute;
+				left: 10%;
+				top: 16%;
+				width: 7%;
+				height: 3.4vh;
+				z-index: 1;
+			}
+
+			
+			.goldIcon {
+				position: absolute;
+				left: 11%;
+				top: 18%;
+				width: 6%;
+				height: 3.4vh;
+				z-index: 1;
+			}
+
+			.topUserIcon {
+				display: block;
+				position: absolute;
+				left: 20%;
+				top: 16%;
+				width: 8.5%;
+				height: 3.5vh;
+				z-index: 1;
+			}
+
+			.userIcon {
+				display: block;
+				position: absolute;
+				left: 12%;
+				top: 16%;
+				width: 8.5%;
+				height: 3.5vh;
+				z-index: 1;
+			}
+
+			.userUnknownIcon {
+				position: absolute;
+				left: 20%;
+				top: 16%;
+				width: 7%;
+				z-index: 1;
+			}
+
+			.topUserName {
+				position: absolute;
+				left: 34%;
+				top: 18%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.userName {
+				position: absolute;
+				left: 24%;
+				top: 18%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.topUserBalance {
+				position: absolute;
+				top: 18%;
+				right: 5%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #C67D01;
+				z-index: 1;
+			}
+
+			.userBalance {
+				position: absolute;
+				top: 18%;
+				right: 5%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.background {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 0;
+			}
+		}
+	}
+}
