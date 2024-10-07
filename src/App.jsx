@@ -22,11 +22,38 @@ import WinterSlalomPage from './components/winterSlalomPage/winterSlalomPage'
 import WinterSlalomPageTwo from './components/winterSlalomPage/winterSlalomPageTwo/winterSlalomPageTwo'
 import WinterSlalomPageThree from './components/winterSlalomPage/winterSlalomPageThree/winterSlalomPageThree'
 import SchoolPageMain from './components/schoolPage/schoolPageMain'
+import SchoolFloorPage from './components/schoolPage/schoolFloor'
+import { Route, Router, Routes } from 'react-router-dom'
+
 
 function App() {
  
   return (
       <>
+					<Routes>
+						<Route path="/*" element={<LoadingPage />} />
+						<Route path="/reward" element={<RewardPage />} />
+						<Route path="/everyDayReward" element={<EveryDayReward />} />
+						<Route path="/selectMode" element={<SelectMode />} />
+						<Route path="/words" element={<WordsPage />} />
+						<Route path="/journey" element={<JourneyPage />} />
+						<Route path="/moreCoins" element={<MoreCoinsPage />} />
+						<Route path="/rating" element={<RatingPage />} />
+						<Route path="/friends" element={<FriendsPage />} />
+						<Route path="/telegramJoin" element={<TelegramJoinPage />} />
+						<Route path="/soon" element={<SoonPage />} />
+						<Route path="/endQuestion" element={<EndQuestionPage />} />
+						<Route path="/getReward" element={<GetRewardPage />} />
+						<Route path="/advantageOne" element={<AdvantagePageOne />} />
+						<Route path="/advantageTwo" element={<AdvantagePageTwo />} />
+						<Route path="/premium" element={<PremiumPage />} />
+						<Route path="/premiumLost" element={<PremiumLostPage />} />
+						<Route path="/winterSlalom" element={<WinterSlalomPage />} />
+						<Route path="/winterSlalomTwo" element={<WinterSlalomPageTwo />} />
+						<Route path="/winterSlalomThree" element={<WinterSlalomPageThree />} />
+						<Route path="/schoolPageMain" element={<SchoolPageMain />} />
+						<Route path="/schoolFloor" element={<SchoolFloorPage />} />
+					</Routes>
 				{/* <LoadingPage /> */}
 				{/* <RewardPage /> */}
 				{/* <EveryDayReward /> */}
@@ -47,7 +74,8 @@ function App() {
 				{/* <WinterSlalomPage /> */}
 				{/* <WinterSlalomPageTwo /> */}
 				{/* <WinterSlalomPageThree /> */}
-				<SchoolPageMain />
+				{/* <SchoolPageMain /> */}
+				{/* <SchoolFloorPage /> */}
 			</>
   )
 }

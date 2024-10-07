@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+
+	.schoolFloorPage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 200vw;
+		height: 200vh;
+		text-align: center;
+		background: #282B39;
+		overflow: hidden;
+
+		.upperPanel {
+			position: fixed;
+			width: 50%;
+			left: 0;
+			top: 0;
+			z-index: 1;
+		}
+
+		.title {
+			width: 20%;
+			position: fixed;
+			left: 15%;
+			top: 60%;
+			z-index: 2;
+		}
+
+		
+		.fullFloor {
+			width: 110%;
+			position: absolute;
+			left: 0%;
+			bottom: 0;
+		}
+
+		.slideRight {
+			width: 8.5%;
+			position: absolute;
+			left: 38%;
+			bottom: 2%;
+		}
+
+		.slideLeft {
+			width: 8.5%;
+			position: absolute;
+			left: 88%;
+			bottom: 15%;
+		}
+
+		.bottom {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+
+		.right {
+			position: absolute;
+			right: 0;
+			top: 37%;
+		}
+	}
+}
