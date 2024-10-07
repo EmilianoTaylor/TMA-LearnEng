@@ -2,6 +2,7 @@ import "./upperPanel.scss"
 import cashBackground from "../images/panels/cashBackground.png"
 import balanceCoin from "../images/panels/balanceCoin.png"
 import energySign from "../images/panels/energySign.png"
+import back from "../images/panels/back.svg"
 
 import { useEffect, useRef, useState } from "react"
 
@@ -43,6 +44,7 @@ export default function UpperPanel() {
 					<div ref={fillRef} className="fill" style={{width: '0%'}}></div>
 				</div>
 			</div>
+			<img src={back} className="back" />
 		</div>
 	)
 }

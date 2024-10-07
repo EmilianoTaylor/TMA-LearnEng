@@ -1,0 +1,247 @@
+@media only screen and (max-width: 768px) {
+
+	.winterSlalomPage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: #000000;
+		background-size: cover;
+
+		.mainDiv {
+
+			position: relative;
+			width: 100%;
+			height: 50vh;
+
+			.blueBackground {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+
+			.raffleTitle {
+				display: block;
+				position: relative;
+				top: 20%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 5.5vw;
+				line-height: 23px;
+				text-align: center;
+				color: #626574;
+			}
+
+			.slalomTitle {
+				display: inline-block;
+				position: relative;
+				top: 22%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 10vw;
+				line-height: 100%;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.quote {
+				position: relative;
+				font-style: normal;
+				top: -0.5vh;
+				margin: 0 5px;
+			}
+
+			.snowflakeOne {
+				position: absolute;
+				top: 34%;
+				left: 6%;
+				width: 15%;
+				z-index: 1;
+				
+			}
+
+			.snowflakeTwo {
+				position: absolute;
+				top: -2.5%;
+				right: 0%;
+				width: 33%;
+				z-index: 1;
+			}
+
+			.snowflakeThree {
+				position: absolute;
+				top: 45%;
+				right: 13%;
+				width: 16%;
+				z-index: 1;
+			}
+
+			.skies {
+				position: absolute;
+				top: 40.5%;
+				left: 40%;
+				width: 20%;
+			}
+
+			.prises {
+				position: relative;
+				top: 48%;
+			}
+
+			.winnersTitle {
+				display: block;
+				position: relative;
+				top: 55%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 7vw;
+				line-height: 27px;
+				text-align: center;
+				color: #FFFFFF;
+			}
+		}
+
+		.cupList {
+			position: relative;
+			width: 100%;
+			height: 45vh;
+			top: 55%;
+			overflow-y: scroll;
+		}
+
+		.cupString {								// строки списка
+			height: 5vh;
+			position: relative;
+			width: 90%;
+			left: -5%;
+			margin-bottom: 2.5%;
+
+			.number {
+				position: absolute;
+				left: 5%;
+				top: 20%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 6vw;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.ratingCup {
+				position: absolute;
+				left: 10%;
+				top: 16%;
+				width: 7%;
+				height: 3.4vh;
+				z-index: 1;
+			}
+
+			
+			.goldIcon {
+				position: absolute;
+				left: 11%;
+				top: 18%;
+				width: 6%;
+				height: 3.4vh;
+				z-index: 1;
+			}
+
+			.topUserIcon {
+				display: block;
+				position: absolute;
+				left: 20%;
+				top: 16%;
+				width: 8.5%;
+				height: 3.5vh;
+				z-index: 1;
+			}
+
+			.userIcon {
+				display: block;
+				position: absolute;
+				left: 12%;
+				top: 16%;
+				width: 8.5%;
+				height: 3.5vh;
+				z-index: 1;
+			}
+
+			.userUnknownIcon {
+				position: absolute;
+				left: 20%;
+				top: 16%;
+				width: 7%;
+				z-index: 1;
+			}
+
+			.topUserName {
+				position: absolute;
+				left: 34%;
+				top: 18%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.userName {
+				position: absolute;
+				left: 24%;
+				top: 18%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.topUserBalance {
+				position: absolute;
+				top: 18%;
+				right: 5%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #C67D01;
+				z-index: 1;
+			}
+
+			.userBalance {
+				position: absolute;
+				top: 18%;
+				right: 5%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 27px;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.background {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 0;
+			}
+		}
+	}
+}

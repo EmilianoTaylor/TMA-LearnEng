@@ -1,0 +1,120 @@
+@media only screen and (max-width: 768px) {
+
+	.winterSlalomPageThree {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: #000000;
+		background-size: cover;
+
+		.mainDiv {
+
+			position: relative;
+			width: 100%;
+			height: 50vh;
+
+			.blueBackground {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+
+			.raffleTitle {
+				display: block;
+				position: relative;
+				top: 20%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 5.5vw;
+				line-height: 23px;
+				text-align: center;
+				color: #626574;
+			}
+
+			.slalomTitle {
+				display: inline-block;
+				position: relative;
+				top: 22%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 10vw;
+				line-height: 100%;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.quote {
+				position: relative;
+				font-style: normal;
+				top: -0.5vh;
+				margin: 0 5px;
+			}
+
+			.snowflakeOne {
+				position: absolute;
+				top: 36%;
+				left: 6%;
+				width: 15%;
+				z-index: 1;
+				
+			}
+
+			.snowflakeTwo {
+				position: absolute;
+				top: -2.5%;
+				right: 0%;
+				width: 33%;
+				z-index: 1;
+			}
+
+			.snowflakeThree {
+				position: absolute;
+				top: 45%;
+				right: 13%;
+				width: 16%;
+				z-index: 1;
+			}
+
+			.timerIcon {
+				position: absolute;
+				top: 42%;
+				left: 40%;
+				width: 20%;
+			}
+
+			.soonTitle {
+				display: block;
+				position: relative;
+				top: 53%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 5.5vw;
+				line-height: 27px;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.prises {
+				position: relative;
+				top: 66%;
+				width: 90%;
+			}
+
+			.blueArrow {
+				position: relative;
+				position: relative;
+				top: 74%;
+				left: -40%;
+				width: 15%;
+			}
+
+		}
+	}
+}

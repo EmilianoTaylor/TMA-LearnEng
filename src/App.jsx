@@ -18,6 +18,9 @@ import AdvantagePageOne from './components/advantagesPage/advantagePageOne/advan
 import AdvantagePageTwo from './components/advantagesPage/advantagePageTwo/advantagePageTwo'
 import PremiumPage from './components/advantagesPage/premiumPage/premiumPage'
 import PremiumLostPage from './components/advantagesPage/premiumLostPage/premiumLostPage'
+import WinterSlalomPage from './components/winterSlalomPage/winterSlalomPage'
+import WinterSlalomPageTwo from './components/winterSlalomPage/winterSlalomPageTwo/winterSlalomPageTwo'
+import WinterSlalomPageThree from './components/winterSlalomPage/winterSlalomPageThree/winterSlalomPageThree'
 
 function App() {
  
@@ -39,7 +42,10 @@ function App() {
 				{/* <AdvantagePageOne /> */}
 				{/* <AdvantagePageTwo /> */}
 				{/* <PremiumPage /> */}
-				<PremiumLostPage />
+				{/* <PremiumLostPage /> */}
+				{/* <WinterSlalomPage /> */}
+				{/* <WinterSlalomPageTwo /> */}
+				<WinterSlalomPageThree />
 			</>
   )
 }

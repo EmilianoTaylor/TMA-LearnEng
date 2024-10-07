@@ -1,0 +1,248 @@
+@media only screen and (max-width: 768px) {
+
+	.winterSlalomPageTwo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: #000000;
+		background-size: cover;
+		overflow-y: scroll;
+
+		.mainDiv {
+
+			position: relative;
+			width: 100%;
+			height: 50vh;
+
+			.blueBackground {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+
+			.raffleTitle {
+				display: block;
+				position: relative;
+				top: 20%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 5.5vw;
+				line-height: 23px;
+				text-align: center;
+				color: #626574;
+			}
+
+			.slalomTitle {
+				display: inline-block;
+				position: relative;
+				top: 22%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 10vw;
+				line-height: 100%;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.quote {
+				position: relative;
+				font-style: normal;
+				top: -0.5vh;
+				margin: 0 5px;
+			}
+
+			.snowflakeOne {
+				position: absolute;
+				top: 36%;
+				left: 6%;
+				width: 15%;
+				z-index: 1;
+				
+			}
+
+			.snowflakeTwo {
+				position: absolute;
+				top: -2.5%;
+				right: 0%;
+				width: 33%;
+				z-index: 1;
+			}
+
+			.snowflakeThree {
+				position: absolute;
+				top: 45%;
+				right: 13%;
+				width: 16%;
+				z-index: 1;
+			}
+
+			.skies {
+				position: absolute;
+				top: 42%;
+				left: 40%;
+				width: 20%;
+			}
+
+			.prises {
+				position: relative;
+				top: 48%;
+			}
+
+			.winnersTitle {
+				display: block;
+				position: relative;
+				top: 52%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 5.5vw;
+				line-height: 27px;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.conditionsDiv {
+
+				position: relative;
+				top: 50%;
+
+				.titleComponent {
+					top: 2vh;
+					width: 100%;
+					height: 8vh;
+					position: relative;
+					display: block;
+					height: 8vh;
+					
+		
+					.componentTitle {
+						position: absolute;
+						top: 5vh;
+						left: 38%;
+						font-family: 'Karton2';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 6vw;
+						line-height: 90%;
+						text-align: center;
+						color: #FFFFFF;
+						z-index: 1;
+					}
+		
+					#span-one {
+						position: absolute;
+						top: 1.4vh;
+						left: 28%;
+						font-family: 'Karton2';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 6vw;
+						line-height: 95%;
+						text-align: center;
+						color: #FFFFFF;
+						z-index: 1;
+					}
+					#span-two {
+						position: absolute;
+						top: 1.4vh;
+						left: 32%;
+						font-family: 'Karton2';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 6vw;
+						line-height: 95%;
+						text-align: center;
+						color: #FFFFFF;
+						z-index: 1;
+					}
+					#span-three {
+						position: absolute;
+						top: 1.4vh;
+						left: 28%;
+						font-family: 'Karton2';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 5vw;
+						line-height: 95%;
+						text-align: center;
+						color: #FFFFFF;
+						z-index: 1;
+					}
+					#span-four {
+						position: absolute;
+						top: 2vh;
+						left: 28%;
+						font-family: 'Karton2';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 6.5vw;
+						line-height: 95%;
+						text-align: center;
+						color: #FFFFFF;
+						z-index: 1;
+					}
+		
+					.background {
+						position: absolute;
+						width: 90%;
+						top: 0;
+						left: 5%;
+					}
+		
+					.imageComp {
+						display: block;
+						position: absolute;
+						z-index: 1;
+						width: 7%;
+						top: 32%;
+						left: 11%;
+					}
+		
+					#rewardImg {
+						top: 26%;
+					}
+		
+					.arrow {
+						display: block;
+						position: absolute;
+						width: 2.5%;
+						top: 35%;
+						z-index: 2;
+						left: 88%;
+					}
+		
+					.doneIcon {
+						display: block;
+						position: absolute;
+						width: 8%;
+						top: 30%;
+						z-index: 2;
+						left: 83%;
+					}
+				}
+			}
+
+			.checkBtn {
+				position: relative;
+				top: 60%;
+				width: 70%;
+				margin-bottom: 10%;
+			}
+
+			.emptyDiv {
+				position: relative;
+				top: 50%;
+				width: 100%;
+				height: 10vh;
+				z-index: 0;
+				background-color: #000000;
+			}
+		}
+	}
+}
