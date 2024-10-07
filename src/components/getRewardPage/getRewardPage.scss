@@ -55,24 +55,31 @@
 			left: 10%;
 			height: 20vh;
 
+			.starList {
+				position: relative;
+				display: block;
+				width: 80%;
+			}
+
 			.star {
 				display: inline-block;
-				width: 14vw;
-				height: 6vh;
-				background-color: #fff;
-				clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-				z-index: 2;
+				width: 26%;
+				list-style: none;
+			}
+
+			.starImg {
+				width: 100%;
 			}
 	
 			.energyValue {
 				display: block;
-				top: 0;
+				top: -5%;
 				position: relative;
 				z-index: 2;
 				font-family: 'Karton2';
 				font-style: normal;
 				font-weight: 400;
-				font-size: 6vw;
+				font-size: 7.5vw;
 				line-height: 14px;
 				text-align: center;
 				color: #FFFFFF;
@@ -82,7 +89,7 @@
 				font-family: 'Karton2';
 				font-style: normal;
 				font-weight: 400;
-				font-size: 6vw;
+				font-size: 7.5vw;
 				line-height: 41px;
 				text-align: center;
 				color: #413F3F;
@@ -98,7 +105,7 @@
 
 		.tryAgainBtn {
 			position: relative;	
-			top: 10%;
+			top: 12%;
 			width: 70%;
 		}
 	}

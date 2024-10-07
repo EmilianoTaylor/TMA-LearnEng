@@ -12,13 +12,16 @@ import eclipse from '../images/wordsPage/eclipse.png'
 import forFreeImage from '../images/wordsPage/forFree.png'
 import unknownImage from '../images/wordsPage/unknown.png'
 import blueArrow from '../images/wordsPage/blueArrow.png'
+import fullStar from '../images/wordsPage/fullCoin.svg'
+import halfStar from '../images/wordsPage/halfCoin.svg'
+import emptyStar from '../images/wordsPage/emptyCoin.svg'
 
 import { useEffect, useRef, useState } from "react";
 
 
 
 export default function WordsPage() {
-	const [percent, setPercent] = useState(15);
+	const [starState, setStarState] = useState(80);
 
 	const valueRef = useRef(null);
 	const fillRef = useRef(null);
@@ -38,14 +41,28 @@ export default function WordsPage() {
 				<img src={arrow} className='arrow' />
 				<span className='componentTitle'>путешествия<br/><em>изучите новые слова по теме "путешествия"</em></span>
 				<div className="progressDiv">
-					<div className="star"></div>
-					<div className="star"></div>
-					<div className="star"></div>
+
+					<ul className='starList'>
+						<li className='star'>
+							{starState < 15 ? <img src={emptyStar} className='starImg' id='firstStar'/> : 
+								starState < 50 ? <img src={halfStar} className='starImg' id='firstStar'/> : 
+								<img src={fullStar} className='starImg' id='firstStar'/>
+							}
+						</li>
+						<li className='star'>
+							{starState < 33 ? <img src={emptyStar} className='starImg' id='firstStar'/> : 
+									starState < 65 ? <img src={halfStar} className='starImg' id='firstStar'/> : 
+									<img src={fullStar} className='starImg' id='firstStar'/>
+								}
+						</li>
+						<li className='star'><img src={emptyStar} className='starImg' id='firstStar'/></li>
+						
+					</ul>
+
 					<span ref={valueRef} className="energyValue">
 						<img src={signQuestion} className='signQuestion'/>
-						15
+						{starState}<em className="energyValue-grey"> / 100</em>
 					</span>
-					<span className="energyValue"> / 100</span>
 					<img src={tableBack} className='tableBack' />
 				</div>
 				<img src={background} className='background' />
