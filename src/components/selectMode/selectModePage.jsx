@@ -9,6 +9,7 @@ import fourthCompImg from '../images/selectMode/fourth.png'
 import fivthCompImg from '../images/selectMode/fivth.png'
 import arrow from '../images/selectMode/arrow.png'
 import { useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function SelectMode() {
@@ -21,6 +22,14 @@ export default function SelectMode() {
 				image.style.filter = 'brightness(100%)';
 			}, 1000)
 	}
+
+
+	
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/words');
+  };
 
 	return (
 		<div className="selectMode">
@@ -41,6 +50,9 @@ export default function SelectMode() {
 
 			<TitleComponent childOne="фразы" childTwo="рус./англ." imageName={fivthCompImg} arrowId='fivthArrow'/>
 			<TitleComponent childOne="фразы" childTwo="англ./рус." imageName={fivthCompImg} arrowId='fivthArrow'/>
+
+
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }

@@ -3,10 +3,18 @@ import gift from "../images/rewardPage/gift.png"
 import takeGift from "../images/rewardPage/takeGift.png"
 import coin from "../images/rewardPage/coin.svg"
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function RewardPage() {
 	const [counter, setCounter] = useState(25)
+
+
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/everyDayReward');
+  };
 
 	return (
 		<div className="rewardPage">
@@ -25,6 +33,7 @@ export default function RewardPage() {
 				<img src={takeGift} alt="" className='takeGift'/>
 			</div>
 
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }

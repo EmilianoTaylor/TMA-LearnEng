@@ -11,13 +11,18 @@ import noIcon from '../images/ratingPage/icon2.png'
 import icon3 from '../images/ratingPage/icon3.png'
 import WinnerString from './winnersString'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function WinterSlalomPage() {
 	const [firstPrise, setFirstPrise] = useState('iphone 15 pro')
 	const [secondPrise, setSecondPrise] = useState('airpods 3')
 	const [thirdPrise, setThirdPrise] = useState('яндекс.станция')
+	const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate('/');
+  };
 	
 
 
@@ -49,7 +54,7 @@ export default function WinterSlalomPage() {
 				</ul>
 			</div>
 
-
+      <button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }

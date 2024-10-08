@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import house from "../images/loadingPage/house.png"
 import './loadingPage.scss'
+import { useNavigate } from "react-router-dom";
 
 export default function LoadingPage() {
 	useEffect(() => {
@@ -20,6 +21,13 @@ export default function LoadingPage() {
 		}, 500);
 	}, [])
 
+
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/reward');
+  };
+
 	return (
 		<div className="loadingPage">
 			<img src={house} alt="" className='house'/>
@@ -29,6 +37,8 @@ export default function LoadingPage() {
 			<div className="loading-bar">
 				<div className="loading-bar-inner"></div>
 			</div>
+
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }

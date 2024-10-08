@@ -10,6 +10,13 @@ import icon3 from '../images/ratingPage/icon3.png'
 
 export default function RatingPage() {
 
+	
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/friends');
+  };
+
 	return (
 		<div className="ratingPage">
 			<UpperPanel />
@@ -35,6 +42,10 @@ export default function RatingPage() {
 				<CupString number={10} userIcon={icon3} userName={'john'} userBalance={'1850'}/>
 				<CupString number={11} userIcon={icon3} userName={'eazy'} userBalance={'1850'}/>
 			</ul>
+
+
+
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 			)
 }

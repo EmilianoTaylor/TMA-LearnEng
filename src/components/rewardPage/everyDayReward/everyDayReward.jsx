@@ -1,9 +1,19 @@
 import './everyDayReward.scss'
 import table from '../../images/rewardPage/table.png'
 import arrow from '../../images/rewardPage/arrow.png'
+import { useNavigate } from 'react-router-dom';
 
 
 export default function EveryDayReward() {
+
+
+	
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/selectMode');
+  };
+
 	return (
 		<div className="everyDayReward">
 			<p className="title">ежедневная награда</p>
@@ -17,6 +27,8 @@ export default function EveryDayReward() {
 				<img src={table} className="tableImage" alt="" />
 			</div>
 			<img src={arrow} className="arrow" alt="" />
+
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }

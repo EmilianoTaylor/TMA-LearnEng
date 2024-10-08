@@ -10,6 +10,7 @@ import tgIcon from '../images/moreCoinsPage/tgIcon.png'
 import friendsIcon from '../images/moreCoinsPage/friendsIcon.png'
 import doneBack from '../images/moreCoinsPage/doneBack.png'
 import doneIcon from '../images/moreCoinsPage/doneIcon.png'
+import { useNavigate } from 'react-router-dom'
 
 
 
@@ -25,6 +26,13 @@ export default function MoreCoinsPage() {
 				image.style.filter = 'brightness(100%)';
 			}, 1000)
 	}
+
+
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/rating');
+  };
 
 	return (
 		<div className='moreCoins'>
@@ -63,6 +71,7 @@ export default function MoreCoinsPage() {
 				<img src={friendsIcon} className='imageComp' />
 			</div>
 
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }

@@ -12,6 +12,12 @@ import copyBtn from '../images/friendsPage/copyBtn.png'
 
 export default function FriendsPage() {
 
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/telegramJoin');
+  };
+
 	return (
 		<div className="ratingPage">
 			<UpperPanel />
@@ -34,6 +40,9 @@ export default function FriendsPage() {
 				<img src={inviteBtn} className='inviteBtn' />
 				<img src={copyBtn} className='copyBtn' />
 			</div>
+
+			
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 			)
 }

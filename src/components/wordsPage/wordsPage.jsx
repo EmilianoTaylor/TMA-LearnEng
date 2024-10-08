@@ -17,6 +17,7 @@ import halfStar from '../images/wordsPage/halfCoin.svg'
 import emptyStar from '../images/wordsPage/emptyCoin.svg'
 
 import { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -27,6 +28,11 @@ export default function WordsPage() {
 	const fillRef = useRef(null);
 
 
+	const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/journey');
+  };
 
 	return (
 		<div className="wordsPage">
@@ -123,6 +129,9 @@ export default function WordsPage() {
 				<img src={background} className='background' />
 			</div>
 			<img src={blueArrow} className='blueArrow' />
+
+
+			<button onClick={handleClick} className='nextBtn'>следующая</button>
 		</div>
 	)
 }
