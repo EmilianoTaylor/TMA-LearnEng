@@ -14,7 +14,7 @@ export default function SoonPage() {
 			<UpperPanel />
 			<div className='mainDiv'>
 				<img src={mob} className='mob' />
-				<img src={sorryText} className='sorryText' />
+				<span className='sorryText'>{`сорян :(`}</span>
 				<p className='title'>режим скоро<br />откроется!</p>
 				<img src={backBtn} className='backBtn' />
 			</div>

@@ -7,11 +7,15 @@ import snowflakeThree from '../../images/winterSlalomPage/snowflakeThree.svg'
 import timerIcon from '../../images/winterSlalomPage/timerIcon.svg'
 import prises from '../../images/winterSlalomPage/prises.svg'
 import blueArrow from '../../images/winterSlalomPage/blueArrow.svg'
+import { useState } from 'react'
 
 
 
 
 export default function WinterSlalomPageThree() {
+	const [firstPrise, setFirstPrise] = useState('iphone 15 pro')
+	const [secondPrise, setSecondPrise] = useState('airpods 3')
+	const [thirdPrise, setThirdPrise] = useState('яндекс.станция')
 
 
 
@@ -28,6 +32,10 @@ export default function WinterSlalomPageThree() {
 				<img src={snowflakeThree} className='snowflakeThree' />
 				<img src={timerIcon} className='timerIcon' />
 				<span className='soonTitle'>скоро ...</span>
+				<span className='prisesTitle'>призы</span>
+				<span className='firstPlace'>{firstPrise}</span>
+				<span className='secondPlace'>{secondPrise}</span>
+				<span className='thirdPlace'>{thirdPrise}</span>
 				<img src={prises} className='prises' />
 				<span className='winnersTitle'>условия</span>
 				<img src={blueArrow} className='blueArrow' />

@@ -15,6 +15,7 @@ export default function SchoolPageMain() {
 
 				<img src={title} className='title' />
 				<img src={getLicenseBtn} className='getLicenseBtn' />
+				<span className='licensePrice'>10000$</span>
 			</div>
 
 		</div>

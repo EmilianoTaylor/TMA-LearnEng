@@ -2,6 +2,7 @@ import './everyDayReward.scss'
 import table from '../../images/rewardPage/table.png'
 import arrow from '../../images/rewardPage/arrow.png'
 import { useNavigate } from 'react-router-dom';
+import DownPanel from '../../pannels/downPanel';
 
 
 export default function EveryDayReward() {
@@ -16,6 +17,7 @@ export default function EveryDayReward() {
 
 	return (
 		<div className="everyDayReward">
+			<DownPanel />
 			<p className="title">ежедневная награда</p>
 			<p className='mainText'>
 				Забирай монеты за ежедневный вход в игру без пропусков! 

@@ -19,6 +19,9 @@ import checkBtn from '../../images/winterSlalomPage/checkBtn.svg'
 
 
 export default function WinterSlalomPageTwo() {
+	const [firstPrise, setFirstPrise] = useState('iphone 15 pro')
+	const [secondPrise, setSecondPrise] = useState('airpods 3')
+	const [thirdPrise, setThirdPrise] = useState('яндекс.станция')
 	const imgRef = useRef(null)
 	const [done, setDone] = useState(false)
 
@@ -35,6 +38,10 @@ export default function WinterSlalomPageTwo() {
 				<img src={snowflakeOne} className='snowflakeOne' />
 				<img src={snowflakeThree} className='snowflakeThree' />
 				<img src={skies} className='skies' />
+				<span className='prisesTitle'>призы</span>
+				<span className='firstPlace'>{firstPrise}</span>
+				<span className='secondPlace'>{secondPrise}</span>
+				<span className='thirdPlace'>{thirdPrise}</span>
 				<img src={prises} className='prises' />
 				<span className='winnersTitle'>условия</span>
 
@@ -70,7 +77,6 @@ export default function WinterSlalomPageTwo() {
 					</div>
 				</div>
 
-				
 				<img src={checkBtn} className='checkBtn' />
 				<div className='emptyDiv'></div>
 			</div>

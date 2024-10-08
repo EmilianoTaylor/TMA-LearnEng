@@ -4,6 +4,7 @@ import takeGift from "../images/rewardPage/takeGift.png"
 import coin from "../images/rewardPage/coin.svg"
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import DownPanel from '../pannels/downPanel'
 
 
 export default function RewardPage() {
@@ -18,6 +19,7 @@ export default function RewardPage() {
 
 	return (
 		<div className="rewardPage">
+			<DownPanel />
 			<img src={gift} alt="" className='gift'/>
 				<p className='title'>Ежедневная<br/>награда</p>
 				<p className='reward-text'>Забирай монеты за ежедневный вход в игру без пропусков! 

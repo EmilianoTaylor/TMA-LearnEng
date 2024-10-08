@@ -17,7 +17,7 @@ export default function EndQuestionPage() {
 			<UpperPanel />
 			<div className='mainDiv'>
 				<img src={mob} className='mob' />
-				<img src={whereText} className='whereText' />
+				<span className='whereText'>{`сорян :(`}</span>
 				<p className='title'>вопросов пока нет<br/><span className='underTitle'>но они скоро появятся!</span></p>
 				<img src={backBtn} className='backBtn' />
 			</div>

@@ -41,6 +41,21 @@
 				left: 0%;
 				width: 70%;
 			}
+
+			.licensePrice {
+				position: relative;
+				top: -13%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 48px;
+				line-height: 55px;
+				text-align: center;
+				background: linear-gradient(107.48deg, #727687 15.97%, #ABAFBE 44.58%, #595D70 78.73%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				background-clip: text;
+			}
 		}
 	}
 }

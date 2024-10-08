@@ -38,6 +38,7 @@
 			.slalomTitle {
 				display: inline-block;
 				position: relative;
+				left: 8%;
 				top: 22%;
 				font-family: 'Karton2';
 				font-style: normal;
@@ -89,8 +90,9 @@
 
 			.soonTitle {
 				display: block;
-				position: relative;
-				top: 53%;
+				position: absolute;
+				top: 68%;
+				left: 42.5%;
 				font-family: 'Karton2';
 				font-style: normal;
 				font-weight: 400;
@@ -100,16 +102,72 @@
 				color: #FFFFFF;
 			}
 
-			.prises {
+			.prisesTitle {
 				position: relative;
-				top: 66%;
-				width: 90%;
+				top: 75%;
+				left: -35%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 5vw;
+				line-height: 27px;
+				text-align: center;
+				color: #FFFFFF;
+			}
+
+			.prises {
+				position: absolute;
+				left: 5vw;
+				top: 95%;
+				width: 90vw;
+			}
+
+			.firstPlace {
+				display: block;
+				position: relative;
+				left: -25%;
+				top: 105%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 4vw;
+				text-align: center;
+				color: #C67D01;
+				z-index: 1;
+			}
+
+			.secondPlace {
+				display: block;
+				position: absolute;
+				left: 68%;
+				top: 104%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				line-height: 100%;
+				font-size: 4vw;
+				text-align: center;
+				color: #FFFFFF;
+				z-index: 1;
+			}
+
+			.thirdPlace {
+				display: block;
+				position: relative;
+				left: 25%;
+				top: 100%;
+				font-family: 'Karton2';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 4vw;
+				text-align: center;
+				color: #FFFFFF;
+				z-index: 1;
 			}
 
 			.blueArrow {
 				position: relative;
-				position: relative;
-				top: 74%;
+				top: 109%;
 				left: -40%;
 				width: 15%;
 			}
