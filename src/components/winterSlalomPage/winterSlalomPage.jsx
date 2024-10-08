@@ -38,12 +38,11 @@ export default function WinterSlalomPage() {
 				<img src={snowflakeThree} className='snowflakeThree' />
 				<img src={skies} className='skies' />
 				<span className='prisesTitle'>призы</span>
-				<div className='prisesDiv'>
 					<span className='firstPlace'>{firstPrise}</span>
 					<span className='secondPlace'>{secondPrise}</span>
 					<span className='thirdPlace'>{thirdPrise}</span>
 					<img src={prises} className='prises' />
-				</div>
+
 
 				<span className='winnersTitle'>победители</span>
 				<ul className='cupList'>

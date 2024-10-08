@@ -8,6 +8,7 @@ import icon2 from '../images/friendsPage/icon2.png'
 import icon3 from '../images/ratingPage/icon3.png'
 import inviteBtn from '../images/friendsPage/inviteBtn.png'
 import copyBtn from '../images/friendsPage/copyBtn.png'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function FriendsPage() {

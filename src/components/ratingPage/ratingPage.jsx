@@ -6,6 +6,7 @@ import coin from '../images/ratingPage/coin.png'
 import icon1 from '../images/ratingPage/icon1.png'
 import noIcon from '../images/ratingPage/icon2.png'
 import icon3 from '../images/ratingPage/icon3.png'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function RatingPage() {
