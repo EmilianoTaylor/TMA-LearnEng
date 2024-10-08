@@ -1,6 +1,7 @@
 import './rewardPage.scss'
 import gift from "../images/rewardPage/gift.png"
 import takeGift from "../images/rewardPage/takeGift.png"
+import coin from "../images/rewardPage/coin.svg"
 import { useState } from 'react'
 
 
@@ -18,7 +19,12 @@ export default function RewardPage() {
 				</p>
 				<p className='counerPar'>Подряд уже <span className='eclipseSpan'>{counter}</span> дней</p>
 				<p className='counterDown'>так держать!</p>
-			<img src={takeGift} alt="" className='takeGift'/>
+
+			<div className='takeGiftDiv'>
+				<span className='takeGiftText'>забрать<br /><img src={coin} alt="" className='coin'/><em className='goldPlus'>+50</em></span>
+				<img src={takeGift} alt="" className='takeGift'/>
+			</div>
+
 		</div>
 	)
 }

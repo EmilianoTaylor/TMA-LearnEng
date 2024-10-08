@@ -78,9 +78,42 @@
 			color: #FFFFFF;
 		}
 
-		.takeGift {
+		.takeGiftDiv {
 			position: relative;
 			top: 20%;
+			width: 100%;
+			height: 15vh;
+		}
+
+		.takeGiftText {
+			display: block;
+			position: absolute;
+			font-family: 'Karton2';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 8vw;
+			line-height: 100%;
+			text-align: center;
+			color: #FFFFFF;
+			z-index: 1;
+			position: absolute;
+			top: 25%;
+			left: 25%;
+			width: 70%;
+		}
+
+		.goldPlus {
+			font-size: 9vw;
+			line-height: 41px;
+			text-align: center;
+			color: #BD6F01;
+			backdrop-filter: blur(4.2px);
+		}
+
+		.takeGift {
+			position: absolute;
+			top: 15%;
+			left: 15%;
 			width: 70%;
 		}
 }}

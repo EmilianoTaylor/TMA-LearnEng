@@ -1,5 +1,10 @@
 @media only screen and (max-width: 768px) {
 
+	@mixin schoolFloorPage {
+		height: 9vh;
+		width: 20%;
+	}
+
 	.schoolFloorPage {
 		position: absolute;
 		top: 0;
@@ -9,6 +14,7 @@
 		text-align: center;
 		background: #282B39;
 		overflow: hidden;
+
 
 		.upperPanel {
 			position: fixed;
@@ -22,17 +28,44 @@
 			width: 20%;
 			position: fixed;
 			left: 15%;
-			top: 60%;
+			top: 54%;
 			z-index: 2;
 		}
 
 		
 		.fullFloor {
 			width: 110%;
+			height: 46%;
 			position: absolute;
 			left: 0%;
 			bottom: 0;
 		}
+
+		#btnOne{
+			@include schoolFloorPage;
+			position: absolute;
+			left: 14%;
+			bottom: 10%;
+		}
+		#btnTwo{
+			@include schoolFloorPage;
+			position: absolute;
+			left: 32%;
+			bottom: 14%;
+		}
+		#btnThree{
+			@include schoolFloorPage;
+			position: absolute;
+			left: 62%;
+			bottom: 23%;
+		}
+		#btnFour{
+			@include schoolFloorPage;
+			position: absolute;
+			left: 79%;
+			bottom: 27%;
+		}	
+
 
 		.slideRight {
 			width: 8.5%;

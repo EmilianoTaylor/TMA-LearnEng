@@ -10,9 +10,14 @@ import icon1 from '../images/ratingPage/icon1.png'
 import noIcon from '../images/ratingPage/icon2.png'
 import icon3 from '../images/ratingPage/icon3.png'
 import WinnerString from './winnersString'
+import { useState } from 'react'
 
 
 export default function WinterSlalomPage() {
+	const [firstPrise, setFirstPrise] = useState('iphone 15 pro')
+	const [secondPrise, setSecondPrise] = useState('airpods 3')
+	const [thirdPrise, setThirdPrise] = useState('яндекс.станция')
+
 	
 
 
@@ -27,12 +32,19 @@ export default function WinterSlalomPage() {
 				<img src={snowflakeOne} className='snowflakeOne' />
 				<img src={snowflakeThree} className='snowflakeThree' />
 				<img src={skies} className='skies' />
-				<img src={prises} className='prises' />
+				<span className='prisesTitle'>призы</span>
+				<div className='prisesDiv'>
+					<span className='firstPlace'>{firstPrise}</span>
+					<span className='secondPlace'>{secondPrise}</span>
+					<span className='thirdPlace'>{thirdPrise}</span>
+					<img src={prises} className='prises' />
+				</div>
+
 				<span className='winnersTitle'>победители</span>
 				<ul className='cupList'>
-					<WinnerString number={1} userIcon={icon1} userName={'tarzan'} userBalance={'iphone 15pro'}/>
-					<WinnerString number={2} userIcon={noIcon} userName={'nugget'} userBalance={'airpods3'}/>
-					<WinnerString number={3} userIcon={icon3} userName={'techie'} userBalance={'яндекс.станция'}/>
+					<WinnerString number={1} userIcon={icon1} userName={'tarzan'} userBalance={firstPrise}/>
+					<WinnerString number={2} userIcon={noIcon} userName={'nugget'} userBalance={secondPrise}/>
+					<WinnerString number={3} userIcon={icon3} userName={'techie'} userBalance={thirdPrise}/>
 					<WinnerString number={4} userIcon={icon3} userName={'teacup'} userBalance={'я.станция мини'}/>
 				</ul>
 			</div>
